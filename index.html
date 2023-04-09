@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Yoga Studio</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,700&display=swap&_v=20230409160435" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:regular,600,700&display=swap&_v=20230409160435" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.min.css?_v=20230409160435">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container container">
+				<div class="header__body">
+					<a href="#" class="header__logo"><img src="img/logo.svg" alt="Logo">
+						<span class="green-text">Yoga&nbsp;</span>International</a>
+					<div class="header__menu menu">
+						<button type="button" class="menu__icon icon-menu"><span></span></button>
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li>
+									<a data-goto=".member__section" href="#" class="menu__link">Articles</a>
+								</li>
+								<li>
+									<a data-goto=".always__section" href="#" class="menu__link">Classes</a>
+								</li>
+								<li>
+									<a data-goto=".courses__section" href="#" class="menu__link">Courses</a>
+								</li>
+								<li>
+									<a data-goto=".confidence__section" href="#" class="menu__link">Teachers</a>
+								</li>
+								<li>
+									<a data-goto=".challenge__section" href="#" class="menu__link">About</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="menu__items">
+						<form action="#" class="search">
+							<input type="search" id="search" placeholder="Еnter to search..." class="search__input"><button type="submit" class="search-btn">
+								<img src="img/search.png" class="icon-search" alt="Sign"></button>
+						</form>
+
+						<button data-popup="#popup-sign" class="sign-btn">Sign In</button>
+						<a href="#" data-popup="#popup-start" class="header-button btn">Start your free trial</a>
+					</div>
+				</div>
+			</div>
+		</header>
+		<main class="page">
+			<section class="practice__section">
+				<img src="img/Main_image.jpg" alt="Yoga International" class="practice__main-image">
+				<div class="practice__layers"><img src="img/bottom_left.png" alt="" class="practice__fog-layer-left"><img src="img/bottom_right.png" alt="" class="practice__fog-layer-right"></div>
+				<div class="practice__container container">
+					<article class="practice__article">
+						<h1 class="title _anim-items _anim-no-hide">Practice <span class="green-text">At
+								Home</span></h1>
+						<span class="subtitle">With the
+							World’s Top Yoga Teachers</span>
+						<div class="subtitle__desc desc _anim-items _anim-no-hide">
+							Stream hundreds of expertly led yoga & meditation classes on any device.
+							Your&nbsp;free&nbsp;trial awaits. Cancel online anytime.</div>
+						<a href="#" data-popup="#popup-start" class="practice-button btn">Start your free trial</a>
+					</article>
+
+
+					<div class="progress">
+						<span class="practice__more-than">more than</span>
+						<div class="progress__quantity"><span>200</span>classes</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="member__section">
+				<div class="member__container container">
+					<h2 class="member__title title _anim-items _anim-no-hide">Member <span class="green-text">Benefits</span>
+					</h2>
+					<div class="member__items">
+						<div class="member__item">
+							<img src="img/member1.jpg" alt="features">
+							<h3 class="features">World Class Teacher
+							</h3>
+							<p class="features__desc desc">Experience the depth of knowledge
+								from experts across all areas of yoga.</p>
+						</div>
+						<div class="member__item"><img src="img/member2.jpg" alt="features">
+							<h3 class="features">Stay Inspired</h3>
+							<p class="features__desc desc">
+								Explore hundreds of live & on-demand classes, with new content added daily.</p>
+						</div>
+						<div class="member__item"><img src="img/member3.jpg" alt="features">
+							<h3 class="features">Everywhere you are</h3>
+							<p class="features__desc desc">
+								Take classes at your own pace,
+								on your own time, and on any device.
+							</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="always__section">
+				<div class="always__container container">
+					<h2 class="always__title title _anim-items _anim-no-hide">At Home Or On-The-Go <br><span class="green-text">Always On
+							Your Time</span>
+					</h2>
+					<div class="always__content">
+						<div class="content__at-home">
+							<img src="img/always-at-home.jpg" alt="Yoga at Home">
+						</div>
+						<div class="content__video">
+							<p class="always__desc desc _anim-items _anim-no-hide">Customize your membership and grow your
+								practice by
+								choosing from our
+								expansive library of
+								classes,
+								courses, and articles.</p>
+							<!-- <video preload="none" posterimg/video_poster.jpg" controls class="video__item">
+										<source src=""> </video>-->
+
+							<div class="video-item">
+								<div onclick="this.nextElementSibling.style.display='block'; this.style.display='none'">
+									<img src="img/Video-button.png" class="video__button" alt="">
+									<img class="poster" src="img/video_poster1.jpg" alt="poster" style="cursor:pointer">
+								</div>
+								<div class="video-wrap" style="display:none">
+									<iframe class="video" src="https://www.youtube.com/embed/VrzLrJpaDik" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+								</div>
+							</div>
+							<div class="video__card">
+								<div class="column-1">
+									<h4 class="card__title">Hatha yoga</h4>
+									<p>Love Your (Warrior) Feet</p>
+									<div class="card__master"><img src="img/Noah_Maze.png" alt="Noah Maze">Noah Maze</div>
+								</div>
+								<div class="column-2">
+									<p>Level 2</p>
+									<div class="card__time card__time_yellow"><svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M38 19C38 24.0391 35.9982 28.8718 32.435 32.435C28.8718 35.9982 24.0391 38 19 38C13.9609 38 9.12816 35.9982 5.56497 32.435C2.00178 28.8718 0 24.0391 0 19C0 13.9609 2.00178 9.12816 5.56497 5.56497C9.12816 2.00178 13.9609 0 19 0C24.0391 0 28.8718 2.00178 32.435 5.56497C35.9982 9.12816 38 13.9609 38 19ZM19 8.3125C19 7.99756 18.8749 7.69551 18.6522 7.47281C18.4295 7.25011 18.1274 7.125 17.8125 7.125C17.4975 7.125 17.1955 7.25011 16.9728 7.47281C16.7501 7.69551 16.625 7.99756 16.625 8.3125V21.375C16.6251 21.5843 16.6805 21.7899 16.7856 21.9709C16.8907 22.1519 17.0417 22.3019 17.2235 22.4058L25.536 27.1558C25.8088 27.3032 26.1284 27.3381 26.4266 27.2529C26.7247 27.1678 26.9778 26.9694 27.1316 26.7002C27.2855 26.431 27.3279 26.1123 27.2499 25.8122C27.1718 25.5121 26.9795 25.2544 26.714 25.0942L19 20.6863V8.3125Z" fill="white" />
+										</svg>
+										45 min </div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</section>
+
+			<section class="challenge__section">
+				<div class="challenge__container container">
+					<div class="challenge__row">
+						<h2 class="challenge__title title _anim-items _anim-no-hide">Challenge <span class="green-text">Yourself</span>
+						</h2>
+						<p class="challenge__desc desc _anim-items _anim-no-hide">Take your practice to the next level with
+							our on-going
+							yoga challenges
+						</p>
+					</div>
+					<!-- Slider challenge__section -->
+					<div class="challenge-swiper-holder">
+						<div class="challenge-swiper">
+							<div class="swiper-wrapper challenge-swiper-wrapper">
+								<div class="swiper-slide challenge-swiper-slide"><img src="img/challenge_slide_1.jpg" alt="Yoga">
+								</div>
+								<div class="swiper-slide challenge-swiper-slide"><img src="img/challenge_slide_2.jpg" alt="Yoga">
+								</div>
+								<div class="swiper-slide challenge-swiper-slide"><img src="img/challenge_slide_3.jpg" alt="Yoga">
+								</div>
+								<div class="swiper-slide challenge-swiper-slide"><img src="img/challenge_slide_4.jpg" alt="Yoga">
+								</div>
+								<div class="swiper-slide challenge-swiper-slide"><img src="img/challenge_slide_5.jpg" alt="Yoga">
+								</div>
+							</div>
+							<div class="swiper-button-prev challenge-swiper-button-prev"></div>
+							<div class="swiper-button-next challenge-swiper-button-next"></div>
+							<!-- Controller -->
+							<div class="challenge-controll">
+								<div class="swiper-pagination"></div>
+								<div class="fraction-controll">
+									<span class="fraction-controll__current">01</span>
+									<span class="fraction-controll__all">0</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="courses__section">
+				<div class="courses__container container">
+					<h2 class="courses__title title _anim-items _anim-no-hide">Courses</h2>
+					<p class="courses__desc desc _anim-items _anim-no-hide">Hone your skills with our professionally trained
+						teachers who are
+						passionate about yoga</p>
+					<!-- Slider courses__section -->
+					<div class="courses-swiper-holder">
+						<div class="courses-swiper">
+							<div class="swiper-wrapper courses-swiper-wripper">
+								<!-- Slides -->
+								<div class="swiper-slide course-slide course-slide-1">
+									<div class="courses-slide-holder">
+										<div class="courses__inform">
+											<p class="courses__txt">Courses</p>
+											<p class="courses__price"><span>$</span>120</p>
+										</div>
+										<h5 class="courses__slide-inform">7 days of Relation</h5>
+										<div class="about-course">
+											<div class="card__master">
+												<img src="img/Noah_Maze.png" alt="Noah Maze">
+												<div class="master">Noah Maze</div>
+											</div>
+											<div class="card__time"><svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M38 19C38 24.0391 35.9982 28.8718 32.435 32.435C28.8718 35.9982 24.0391 38 19 38C13.9609 38 9.12816 35.9982 5.56497 32.435C2.00178 28.8718 0 24.0391 0 19C0 13.9609 2.00178 9.12816 5.56497 5.56497C9.12816 2.00178 13.9609 0 19 0C24.0391 0 28.8718 2.00178 32.435 5.56497C35.9982 9.12816 38 13.9609 38 19ZM19 8.3125C19 7.99756 18.8749 7.69551 18.6522 7.47281C18.4295 7.25011 18.1274 7.125 17.8125 7.125C17.4975 7.125 17.1955 7.25011 16.9728 7.47281C16.7501 7.69551 16.625 7.99756 16.625 8.3125V21.375C16.6251 21.5843 16.6805 21.7899 16.7856 21.9709C16.8907 22.1519 17.0417 22.3019 17.2235 22.4058L25.536 27.1558C25.8088 27.3032 26.1284 27.3381 26.4266 27.2529C26.7247 27.1678 26.9778 26.9694 27.1316 26.7002C27.2855 26.431 27.3279 26.1123 27.2499 25.8122C27.1718 25.5121 26.9795 25.2544 26.714 25.0942L19 20.6863V8.3125Z" fill="white" />
+												</svg>45 min</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide course-slide course-slide-2">
+									<div class="courses-slide-holder">
+										<div class="courses__inform">
+											<p class="courses__txt">Courses</p>
+											<p class="courses__price"><span>$</span>150</p>
+										</div>
+										<h5 class="courses__slide-inform">Increase your mobility</h5>
+										<div class="about-course">
+											<div class="card__master"><img src="img/Tom_Caser.png" alt="Tom Caser">
+												<div class="master">Tom Caser</div>
+											</div>
+											<div class="card__time"><svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M38 19C38 24.0391 35.9982 28.8718 32.435 32.435C28.8718 35.9982 24.0391 38 19 38C13.9609 38 9.12816 35.9982 5.56497 32.435C2.00178 28.8718 0 24.0391 0 19C0 13.9609 2.00178 9.12816 5.56497 5.56497C9.12816 2.00178 13.9609 0 19 0C24.0391 0 28.8718 2.00178 32.435 5.56497C35.9982 9.12816 38 13.9609 38 19ZM19 8.3125C19 7.99756 18.8749 7.69551 18.6522 7.47281C18.4295 7.25011 18.1274 7.125 17.8125 7.125C17.4975 7.125 17.1955 7.25011 16.9728 7.47281C16.7501 7.69551 16.625 7.99756 16.625 8.3125V21.375C16.6251 21.5843 16.6805 21.7899 16.7856 21.9709C16.8907 22.1519 17.0417 22.3019 17.2235 22.4058L25.536 27.1558C25.8088 27.3032 26.1284 27.3381 26.4266 27.2529C26.7247 27.1678 26.9778 26.9694 27.1316 26.7002C27.2855 26.431 27.3279 26.1123 27.2499 25.8122C27.1718 25.5121 26.9795 25.2544 26.714 25.0942L19 20.6863V8.3125Z" fill="white" />
+												</svg>50 min</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide course-slide course-slide-3">
+									<div class="courses-slide-holder">
+										<div class="courses__inform">
+											<p class="courses__txt">Courses</p>
+											<p class="courses__price"><span>$</span>150</p>
+										</div>
+										<h5 class="courses__slide-inform">Let's begin some Yin</h5>
+										<div class="about-course">
+											<div class="card__master"><img src="img/Mira_Bells.png" alt="Mira Bells">
+												<div class="master">Mira Bells</div>
+											</div>
+											<div class="card__time"><svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M38 19C38 24.0391 35.9982 28.8718 32.435 32.435C28.8718 35.9982 24.0391 38 19 38C13.9609 38 9.12816 35.9982 5.56497 32.435C2.00178 28.8718 0 24.0391 0 19C0 13.9609 2.00178 9.12816 5.56497 5.56497C9.12816 2.00178 13.9609 0 19 0C24.0391 0 28.8718 2.00178 32.435 5.56497C35.9982 9.12816 38 13.9609 38 19ZM19 8.3125C19 7.99756 18.8749 7.69551 18.6522 7.47281C18.4295 7.25011 18.1274 7.125 17.8125 7.125C17.4975 7.125 17.1955 7.25011 16.9728 7.47281C16.7501 7.69551 16.625 7.99756 16.625 8.3125V21.375C16.6251 21.5843 16.6805 21.7899 16.7856 21.9709C16.8907 22.1519 17.0417 22.3019 17.2235 22.4058L25.536 27.1558C25.8088 27.3032 26.1284 27.3381 26.4266 27.2529C26.7247 27.1678 26.9778 26.9694 27.1316 26.7002C27.2855 26.431 27.3279 26.1123 27.2499 25.8122C27.1718 25.5121 26.9795 25.2544 26.714 25.0942L19 20.6863V8.3125Z" fill="white" />
+												</svg>45 min</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide course-slide course-slide-4">
+									<div class="courses-slide-holder">
+										<div class="courses__inform">
+											<p class="courses__txt">Courses</p>
+											<p class="courses__price"><span>$</span>180</p>
+										</div>
+										<h5 class="courses__slide-inform">Acro-Yoga with your partner</h5>
+										<div class="about-course">
+											<div class="card__master"><img src="img/Cara.png" alt="Cara">
+												<div class="master">Cara</div>
+											</div>
+											<div class="card__time"><svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M38 19C38 24.0391 35.9982 28.8718 32.435 32.435C28.8718 35.9982 24.0391 38 19 38C13.9609 38 9.12816 35.9982 5.56497 32.435C2.00178 28.8718 0 24.0391 0 19C0 13.9609 2.00178 9.12816 5.56497 5.56497C9.12816 2.00178 13.9609 0 19 0C24.0391 0 28.8718 2.00178 32.435 5.56497C35.9982 9.12816 38 13.9609 38 19ZM19 8.3125C19 7.99756 18.8749 7.69551 18.6522 7.47281C18.4295 7.25011 18.1274 7.125 17.8125 7.125C17.4975 7.125 17.1955 7.25011 16.9728 7.47281C16.7501 7.69551 16.625 7.99756 16.625 8.3125V21.375C16.6251 21.5843 16.6805 21.7899 16.7856 21.9709C16.8907 22.1519 17.0417 22.3019 17.2235 22.4058L25.536 27.1558C25.8088 27.3032 26.1284 27.3381 26.4266 27.2529C26.7247 27.1678 26.9778 26.9694 27.1316 26.7002C27.2855 26.431 27.3279 26.1123 27.2499 25.8122C27.1718 25.5121 26.9795 25.2544 26.714 25.0942L19 20.6863V8.3125Z" fill="white" />
+												</svg>60 min</div>
+										</div>
+									</div>
+								</div>
+								<div class="swiper-slide course-slide course-slide-5">
+									<div class="courses-slide-holder">
+										<div class="courses__inform">
+											<p class="courses__txt">Courses</p>
+											<p class="courses__price"><span>$</span>130</p>
+										</div>
+										<h5 class="courses__slide-inform">Аdd flexibility to the body</h5>
+										<div class="about-course">
+											<div class="card__master"><img src="img/Ilona_Red.png" alt="Ilona Red">
+												<div class="master">Ilona Red</div>
+											</div>
+											<div class="card__time"><svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path d="M38 19C38 24.0391 35.9982 28.8718 32.435 32.435C28.8718 35.9982 24.0391 38 19 38C13.9609 38 9.12816 35.9982 5.56497 32.435C2.00178 28.8718 0 24.0391 0 19C0 13.9609 2.00178 9.12816 5.56497 5.56497C9.12816 2.00178 13.9609 0 19 0C24.0391 0 28.8718 2.00178 32.435 5.56497C35.9982 9.12816 38 13.9609 38 19ZM19 8.3125C19 7.99756 18.8749 7.69551 18.6522 7.47281C18.4295 7.25011 18.1274 7.125 17.8125 7.125C17.4975 7.125 17.1955 7.25011 16.9728 7.47281C16.7501 7.69551 16.625 7.99756 16.625 8.3125V21.375C16.6251 21.5843 16.6805 21.7899 16.7856 21.9709C16.8907 22.1519 17.0417 22.3019 17.2235 22.4058L25.536 27.1558C25.8088 27.3032 26.1284 27.3381 26.4266 27.2529C26.7247 27.1678 26.9778 26.9694 27.1316 26.7002C27.2855 26.431 27.3279 26.1123 27.2499 25.8122C27.1718 25.5121 26.9795 25.2544 26.714 25.0942L19 20.6863V8.3125Z" fill="white" />
+												</svg>45 min</div>
+										</div>
+									</div>
+								</div>
+
+							</div>
+							<!-- Додаємо стрілки управління -->
+							<div class="courses-swiper-button-prev swiper-button-prev"></div>
+							<div class="courses-swiper-button-next swiper-button-next"></div>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<section class="confidence__section">
+				<div class="confidence__container container">
+					<h2 class="confidence__title title _anim-items _anim-no-hide">Practice with <span class="green-text">confidence</span></h2>
+					<p class="confidence__desc desc _anim-items _anim-no-hide">Connect and study with 500+ expert teachers
+						across yoga therapy,
+						anatomy,meditation, and more.
+						The world’s most diverse yoga site.</p>
+
+					<!-- Slider confidence__section -->
+					<div class="confidence__swiper-holder">
+						<div class="confidence-swiper">
+							<div class="swiper-wrapper confidence-swiper-wripper">
+								<!-- Slides -->
+								<div class="swiper-slide confidence-slide"><a href="https://www.instagram.com/"><img src="img/Noah_Maze.png" alt="Noah Maze" title="Noah Maze"></a>
+								</div>
+								<div class="swiper-slide confidence-slide"><a href="https://www.instagram.com/"><img src="img/Cara.png" alt="Cara" title="Cara"></a>
+								</div>
+								<div class="swiper-slide confidence-slide"><a href="https://www.instagram.com/"><img src="img/Ilona_Red.png" alt="Ilona_Red" title="Ilona_Red"></a>
+								</div>
+								<div class="swiper-slide confidence-slide"><a href="https://www.instagram.com/"><img src="img/John_Devis.png" alt="John_Devis" title="John_Devis"></a>
+								</div>
+								<div class="swiper-slide confidence-slide"><a href="https://www.instagram.com/"><img src="img/Tom_Caser.png" alt="Tom_Caser" title="Tom_Caser"></a>
+								</div>
+								<div class="swiper-slide confidence-slide"><a href="https://www.instagram.com/"><img src="img/Mira_Bells.png" alt="Noah Maze" title="Noah Maze"></a>
+								</div>
+							</div>
+						</div>
+						<div class="confidence-swiper-button-prev swiper-button-prev"></div>
+						<div class="confidence-swiper-button-next swiper-button-next"></div>
+					</div>
+				</div>
+			</section>
+
+			<section class="empowerment__section">
+				<div class="empowerment__container container">
+					<div class="empowerment__column-1">
+						<h2 class="empowerment__title title _anim-items _anim-no-hide"><span class="green-text">Empowerment
+							</span>
+							comes from within</h2>
+						<p class="empowerment__desc desc _anim-items _anim-no-hide">Be part of a community of expert
+							yoga practitioners and members alike</p>
+						<a href="#" data-popup="#popup-start" class="practice-button btn empowerment-button">Start your
+							journey</a>
+					</div>
+					<div class="empowerment__column-2">
+						<img src="img/Empowerment-img.jpg" alt="Empowerment">
+					</div>
+				</div>
+			</section>
+
+		</main>
+		<footer class="footer">
+			<div class="footer__container container">
+				<div data-spollers="700,max" data-one-spoller data-spollers-speed="1000" class="footer-list">
+					<div class="footer-column">
+						<h6 data-spoller data-spoller-close class="footer-title">Articles</h6>
+						<ul>
+							<li><a>Yoga</a></li>
+							<li><a>Practice</a></li>
+							<li><a>Meditation</a></li>
+							<li><a>Yoga Therapy</a></li>
+							<li><a>Pranayama</a> </li>
+							<li><a>Lifestyle</a></li>
+							<li><a>Poses</a></li>
+							<li><a>Tutorial</a></li>
+						</ul>
+					</div>
+					<div class="footer-column">
+						<h6 data-spoller data-spoller-close class="footer-title">Classes</h6>
+						<ul>
+							<li><a>Beginner</a></li>
+							<li><a>Hatha Yoga</a></li>
+							<li><a>Prenatal</a></li>
+							<li><a>Restorative</a></li>
+							<li><a>Vinyasa</a></li>
+						</ul>
+					</div>
+					<div class="footer-column">
+						<h6 data-spoller data-spoller-close class="footer-title">Courses</h6>
+						<ul>
+							<li><a>Featured</a></li>
+							<li><a>Asana</a></li>
+							<li><a>Ayurveda</a></li>
+							<li><a>Conferences</a></li>
+						</ul>
+					</div>
+					<div class="footer-column">
+						<h6 data-spoller data-spoller-close class="footer-title">Teachers</h6>
+						<ul>
+							<li><a>Tom Caser</a></li>
+							<li><a>Mira Bells</a></li>
+							<li><a>Noah Maze</a></li>
+							<li><a>Cara</a></li>
+							<li><a>Ilona Red</a></li>
+						</ul>
+					</div>
+					<div class="footer-column">
+						<h6 data-spoller data-spoller-close class="footer-title">About</h6>
+						<ul>
+							<li><a>Need help</a></li>
+							<li><a>Careers</a></li>
+							<li><a>Privacy Policy</a></li>
+							<li><a>Terms of Service</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="socials">
+					<a href="https://www.instagram.com/" class="instagram"><img src="img/instagram.png" alt="Instagram"></a>
+					<a href="https://twitter.com" class="twitter"><img src="img/twittwer.svg" alt="Twitter"></a>
+					<a href="https://ru.pinterest.com/" class="pinterest"><img src="img/pinterest.svg" alt="Pinterest"></a>
+					<a href="https://uk-ua.facebook.com" class="facebook"><img src="img/facebook.svg" alt="Facebook"></a>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+	<div id="popup-sign" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><span>&#10006;</span></button>
+				<div class="popup__title">Signin Form</div>
+
+				<form action="#" method="post" data-dev>
+					<label for="name"><b>Username</b></label>
+					<input type="text" placeholder="Name" name="name" required>
+
+					<label for="psw"><b>Password</b></label>
+					<input type="password" placeholder="Password" name="psw" required>
+
+					<div class="clearfix">
+						<button type="submit" class="modal-btn login__btn">Sign in</button>
+					</div>
+					<p>Not a member? <a href="#" style="color:#408a1e" data-popup="#popup-start">Registration</a>.
+				</form>
+
+			</div>
+		</div>
+	</div>
+	<!-- ----------------------------------------- -->
+
+
+
+	<div id="popup-start" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<button data-close type="button" class="popup__close"><span>&#10006;</span></button>
+
+
+				<div class="popup__title">Let's get started</div>
+				<p>This will be an amazing experience</p>
+				<form action="#" method="post" data-dev>
+					<label for="name"><b>Name</b></label>
+					<input type="text" placeholder="Name" name="name" required data-no-validate>
+					<label for="email"><b>Email</b></label>
+					<input type="text" placeholder="Email" name="email" required data-no-validate data-required>
+					<label for="psw"><b>Password</b></label>
+					<input type="password" placeholder="Password" name="psw" required autocomplete="off" data-no-validate>
+					<label for="psw-repeat"><b>Repeat Password</b></label>
+					<input type="password" placeholder="Repeat Password" name="psw-repeat" required data-no-validate>
+					<p>By creating an account, you agree to our <a href="#" style="color:#408a1e"> Privacy
+							Policy</a>.
+					</p>
+					<div class="clearfix">
+						<button type="reset" data-close class="modal-btn cancel__btn">Cancel</button>
+						<button type="submit" class="modal-btn registration__btn">Start</button>
+					</div>
+				</form>
+
+			</div>
+		</div>
+	</div>
+	<script src="js/app.min.js?_v=20230409160435"></script>
+</body>
+
+</html>
